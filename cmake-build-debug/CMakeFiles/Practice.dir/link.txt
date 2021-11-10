@@ -1,0 +1,3 @@
+C:\Users\15544\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Practice.dir/objects.a
+C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\Practice.dir/objects.a @CMakeFiles\Practice.dir\objects1.rsp
+C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Practice.dir/objects.a -Wl,--no-whole-archive -o Practice.exe -Wl,--out-implib,libPractice.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Practice.dir\linklibs.rsp
