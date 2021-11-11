@@ -1,1 +1,1 @@
-This repo is used for self practice.
+Leetcode Self Practice Repo
