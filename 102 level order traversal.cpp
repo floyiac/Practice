@@ -13,7 +13,7 @@ class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
         /**
-         * For Level Order Traversal, queue is need instead of stack;
+         * For Level Order Traversal, queue is need instead of stack
          *
          */
         vector<vector<int>> ans;
