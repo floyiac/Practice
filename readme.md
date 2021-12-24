@@ -1,4 +1,6 @@
-## LEETCODE SELF PRACTICE
+## 😳**LEETCODE SELF PRACTICE**😳
 # Index:
-# 1. Binary Tree Traversal (Iteration and Recursion)
-# 2. Sorting
+* # Binary Tree Traversal
+* # Sorting
+* # Binary Search
+* 
