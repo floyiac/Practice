@@ -1,6 +1,7 @@
 class Solution {
 public:
     // n is the period
+
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
         int target = k%n;
