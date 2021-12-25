@@ -10,7 +10,6 @@ public:
         sort(ans.begin(),ans.end());
         return ans;
     }
-
     //Solution 2
     vector<int> sortedSquares(vector<int>& nums) {
         int n = nums.size();
