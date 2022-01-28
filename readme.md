@@ -5,3 +5,4 @@
 * # Binary Search
 * # Miscellaneous
 * # BFS
+* # Linked List
