@@ -1,19 +1,22 @@
 class Solution {
 public:
-    void backtrack(vector<vector<int>>& res, vector<int>& output, int first, int len){
-        if (first == len) {
-            res.emplace_back(output);
-            return;
+    void backtrack(vector<int>&input, int first, int len, vector<vector<int>>& ans){
+        //back track algorithm
+        if(first == len){
+            ans.emplace_back(input);
         }
-        for (int i = first; i < len; ++i) {
-            swap(output[i], output[first]);
-            backtrack(res, output, first + 1, len);
-            swap(output[i], output[first]);
+        for(int i=first;i<len;i++){
+            swap(input[i],input[first]);
+            backtrack(input,first+1,len,ans);
+            //withdraw the vector
+            swap(input[i],input[first]);
         }
     }
+
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int> > res;
-        backtrack(res, nums, 0, (int)nums.size());
-        return res;
+        vector<vector<int>> ans;
+        int len = nums.size();
+        backtrack(nums,0,len,ans);
+        return ans;
     }
 };
